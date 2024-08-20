@@ -1,0 +1,74 @@
+<!DOCTYPE >
+<html>
+<head>
+    <style>
+        h1{text-align:center;background-color:lightblue;color:black;padding:10px;margin-bottom:20px;border-radius:5px;
+        border:5px solid black;}
+        form{border:3px solid black;padding:20px;border-radius:10px;width:300px;margin:0 auto;background-color:lightblue;}
+        body{background-color:lightpink;text-align:center}
+        button{background-color:rgb(0,0,0);
+            color:#ffffff;
+            padding:10px;
+            border-radius:20px;}
+        input[type="submit"],input[type="reset"]
+        {
+            color:white;
+            background-color:black;
+            padding:5px 10px;
+            border:none;
+            cursor:pointer
+        }
+        input[type="submit"]:hover,[type="reset"]hover{background-color:darkgray};
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <br>
+    <form action="Form1.php">
+        User Name &nbsp
+        <input type="text" placeholder>
+        <br></br>
+        Enter Password &nbsp
+        <input type="password"placeholder>
+        <br></br>
+        Enter Age &nbsp
+        <input type="age"placeholder>
+        <br></br>
+        Enter Address &nbsp
+        <input type="address"placeholder>
+        <br></br>
+        Select DOB &nbsp
+        <input type="date"placeholder>
+        <br></br>
+        Select Course &nbsp
+        <input type="checkbox" name="cousre">Java</input>
+        Select Course &nbsp
+        <input type="checkbox" name="cousre">.net</input>
+        Select Course &nbsp
+        <input type="checkbox" name="cousre">Angular</input>
+        Select Course &nbsp
+        <input type="checkbox" name="cousre">Python</input>
+        Select Course &nbsp
+        <input type="checkbox" name="cousre">Reactjs</input>
+        <br></br>
+        Select Gender &nbsp
+        <input type="radio" name="gender">Female</input>
+        <input type="radio" name="gender">Male</input>
+        <br></br>
+        Select qualification &nbsp
+        <select name="qualification">
+        <option value="option1">B.E</option>
+        <option value="option2">B.tech</option>
+        </select>
+        <br></br>
+        Upload pic &nbsp
+        <input type="file" name="Pic">
+        <br></br>
+        <input type="submit" value="Submit"></input>
+        <input type="reset" values="Reset"></input>
+    </form>
+</body>
+</html>
+
+      
+
